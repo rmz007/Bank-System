@@ -42,7 +42,14 @@
 		mysqli_query($con,$h);
 	}
 	
-	echo "<h1>THANK YOU!!! YOUR TRANSACTION IS SUCCESSFUL<h1>";
-	echo "<a href='index.php'>Home</a>"
-	
 ?>
+
+<html>
+<head>
+<link rel="shortcut icon" href="icon.png">
+<script>
+alert("Your Transaction is Successful");
+window.location.href="custDetails.php";
+</script>
+</head>
+<html>
